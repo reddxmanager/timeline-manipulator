@@ -167,8 +167,8 @@ const styles = {
   },
   tapeLabelSub: { fontFamily: 'var(--font-mono)', fontSize: 7, color: '#887', letterSpacing: '0.1em' },
   controlsRow: {
-    display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-    padding: '6px 16px 8px',
+    display: 'flex', alignItems: 'center', justifyContent: 'center',
+    padding: '6px 16px 8px', gap: 16,
   },
   transportButtons: { display: 'flex', gap: 4, alignItems: 'center' },
   transportBtn: {

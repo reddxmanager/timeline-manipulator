@@ -391,7 +391,7 @@ export default function App() {
 
     try {
       // Call branch API
-      const res = await fetch('/api/diverge', {
+      const res = await fetch('/api/analyze', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -897,9 +897,8 @@ export default function App() {
       )}
 
       <footer style={styles.footer}>
-        <img src="/reddx_logo.png" alt="ReddX" style={{ height: 20, width: 'auto', opacity: 0.6 }} />
         <span style={styles.footerText}>REDDX INDUSTRIES</span>
-        <span style={styles.footerDot}>&bull;</span>
+        <img src="/reddx_logo.png" alt="ReddX" style={{ height: 16, width: 'auto', opacity: 0.6 }} />
         <span style={styles.footerText}>CLASSIFIED</span>
       </footer>
     </div>

@@ -9,6 +9,128 @@ let dailyCount = 0
 let dailyReset = Date.now()
 const MAX_DAILY = 30
 
+async function handleBranch(body) {
+  const { eventTitle, ripples, userChoice } = body
+
+  if (!userChoice || !eventTitle) {
+    return new Response(JSON.stringify({ error: 'Missing fields' }), {
+      status: 400, headers: { 'Content-Type': 'application/json' },
+    })
+  }
+
+  const ANTHROPIC_KEY = process.env.ANTHROPIC_API_KEY
+  if (!ANTHROPIC_KEY) {
+    return new Response(JSON.stringify({ error: 'No API key' }), {
+      status: 500, headers: { 'Content-Type': 'application/json' },
+    })
+  }
+
+  let parallelsText = ''
+  const TURBOPUFFER_KEY = process.env.TURBOPUFFER_API_KEY
+  if (TURBOPUFFER_KEY) {
+    try {
+      const controller = new AbortController()
+      const timeout = setTimeout(() => controller.abort(), 3000)
+      const tpRes = await fetch('https://api.turbopuffer.com/v2/namespaces/consequence-events/query', {
+        method: 'POST',
+        headers: { 'Authorization': `Bearer ${TURBOPUFFER_KEY}`, 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          rank_by: ['text', 'BM25', userChoice],
+          top_k: 3,
+          include_attributes: ['event_name', 'consequences', 'year'],
+        }),
+        signal: controller.signal,
+      })
+      clearTimeout(timeout)
+      if (tpRes.ok) {
+        const data = await tpRes.json()
+        const rows = data.rows || []
+        if (rows.length > 0) {
+          parallelsText = `\nHistorical parallels:\n${rows.map(p =>
+            `- ${p.attributes?.event_name || p.id} (${p.attributes?.year || '?'})`
+          ).join('\n')}`
+        }
+      }
+    } catch (e) { /* skip */ }
+  }
+
+  const chainSummary = ripples
+    ? ripples.slice(-4).map((r, i) => `${i + 1}. ${r.headline}`).join('\n')
+    : ''
+
+  console.log(`Branch: "${userChoice}" for "${eventTitle}"`)
+
+  let branch = null
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    const model = attempt < 3 ? 'claude-sonnet-4-20250514' : 'claude-haiku-4-5-20251001'
+    try {
+      const claudeRes = await fetch('https://api.anthropic.com/v1/messages', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'x-api-key': ANTHROPIC_KEY,
+          'anthropic-version': '2023-06-01',
+        },
+        body: JSON.stringify({
+          model,
+          max_tokens: 2000,
+          system: `You generate 3-4 branching consequences for Timeline Manipulator by ReddX Industries. The user chose a response to a crisis.
+
+Rules:
+- Each consequence: punchy headline, domain, severity 1-5, delay
+- Write a narration script for each (2-3 sentences, YouTube energy, sarcastic)
+- LAST consequence is ALWAYS absurdly mundane. Narrator gets LIVID about something trivial.
+- NEVER use em dashes
+- Respond with ONLY valid JSON. No markdown.`,
+          messages: [{
+            role: 'user',
+            content: `Event: "${eventTitle}"
+Recent consequences: ${chainSummary}
+${parallelsText}
+User chose: "${userChoice}"
+
+Return JSON:
+{
+  "branch_title": "short title",
+  "ripples": [
+    {"id":1,"headline":"consequence","domain":"energy","severity":3,"delay":"weeks","source":{"title":"Publication Name"}}
+  ],
+  "narrations": ["script 1","script 2","script 3"],
+  "roast": "One sentence roasting the user"
+}`
+          }]
+        })
+      })
+
+      if (claudeRes.status === 429 || claudeRes.status >= 500) {
+        console.log(`  Branch: ${claudeRes.status} (attempt ${attempt}/3)`)
+        await new Promise(r => setTimeout(r, claudeRes.status === 429 ? 10000 : 3000))
+        continue
+      }
+      if (!claudeRes.ok) throw new Error(`Claude ${claudeRes.status}`)
+
+      const claudeData = await claudeRes.json()
+      const text = claudeData.content.filter(b => b.type === 'text').map(b => b.text).join('')
+      const jsonMatch = text.match(/\{[\s\S]*\}/)
+      if (!jsonMatch) { console.log('  No JSON in branch response'); continue }
+
+      branch = JSON.parse(jsonMatch[0].replace(/```json|```/g, '').trim())
+      break
+    } catch (err) {
+      console.error(`  Branch attempt ${attempt}:`, err.message)
+      if (attempt === 3) throw err
+      await new Promise(r => setTimeout(r, 3000))
+    }
+  }
+
+  if (!branch) throw new Error('Branch failed')
+  console.log(`Branch generated: ${branch.ripples?.length || 0} ripples`)
+
+  return new Response(JSON.stringify(branch), {
+    headers: { 'Content-Type': 'application/json' },
+  })
+}
+
 export default async function handler(req) {
   if (req.method !== 'POST') {
     return new Response('POST only', { status: 405 })
@@ -28,7 +150,14 @@ export default async function handler(req) {
   dailyCount++
 
   try {
-    const { eventText } = await req.json()
+    const body = await req.json()
+
+    // Route: branch mode if userChoice present
+    if (body.userChoice) {
+      return handleBranch(body)
+    }
+
+    const eventText = body.eventText
     if (!eventText || eventText.trim().length < 5) {
       return new Response(JSON.stringify({ error: 'Event too short' }), {
         status: 400, headers: { 'Content-Type': 'application/json' },
