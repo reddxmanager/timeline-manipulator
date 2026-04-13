@@ -4,3 +4,10 @@ dist
 .env.local
 *.log
 .DS_Store
+.claude
+CLAUDE.md
+CLAUDE_CODE_PROMPT.md
+deno.lock
+
+# Local Netlify folder
+.netlify
