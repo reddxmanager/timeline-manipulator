@@ -1,52 +1,7 @@
-import { useState, useEffect, useRef } from 'react'
-
 export function CassettePlayer({ isPlaying, onPlay, onRewind, onForward, onStop, activeRipple, rippleCount, severity, eventTitle }) {
-  const [elapsed, setElapsed] = useState(0)
-  const startTimeRef = useRef(null)
-  const pausedAtRef = useRef(0)
-  const rafRef = useRef(null)
-
-  // Real-time counter using requestAnimationFrame
-  useEffect(() => {
-    if (isPlaying) {
-      startTimeRef.current = performance.now() - pausedAtRef.current * 1000
-      const tick = () => {
-        const now = performance.now()
-        setElapsed((now - startTimeRef.current) / 1000)
-        rafRef.current = requestAnimationFrame(tick)
-      }
-      rafRef.current = requestAnimationFrame(tick)
-    } else {
-      if (rafRef.current) cancelAnimationFrame(rafRef.current)
-      pausedAtRef.current = elapsed
-    }
-    return () => { if (rafRef.current) cancelAnimationFrame(rafRef.current) }
-  }, [isPlaying])
-
-  // Reset on new event / back to start
-  useEffect(() => {
-    if (activeRipple < 0 || activeRipple === 0) {
-      setElapsed(0)
-      pausedAtRef.current = 0
-      // Restart RAF if currently playing
-      if (isPlaying) {
-        if (rafRef.current) cancelAnimationFrame(rafRef.current)
-        startTimeRef.current = performance.now()
-        const tick = () => {
-          setElapsed((performance.now() - startTimeRef.current) / 1000)
-          rafRef.current = requestAnimationFrame(tick)
-        }
-        rafRef.current = requestAnimationFrame(tick)
-      }
-    }
-  }, [activeRipple < 0 ? -1 : activeRipple === 0 ? 0 : 1])
-
   const progress = rippleCount > 0 ? ((activeRipple + 1) / rippleCount) : 0
   const leftReelSize = 28 - progress * 12
   const rightReelSize = 16 + progress * 12
-  const mins = Math.floor(elapsed / 60)
-  const secs = Math.floor(elapsed % 60)
-  const counterStr = `${String(mins).padStart(2, '0')}${String(secs).padStart(2, '0')}`
 
   return (
     <div style={styles.wrapper}>
@@ -96,9 +51,6 @@ export function CassettePlayer({ isPlaying, onPlay, onRewind, onForward, onStop,
 
         {/* Controls row */}
         <div style={styles.controlsRow}>
-          <div style={styles.counter}>
-            <div style={styles.counterDisplay}>{counterStr}</div>
-          </div>
 
           <div style={styles.transportButtons}>
             {/* Rewind */}
@@ -217,11 +169,6 @@ const styles = {
   controlsRow: {
     display: 'flex', alignItems: 'center', justifyContent: 'space-between',
     padding: '6px 16px 8px',
-  },
-  counter: { background: '#111', borderRadius: 3, padding: '3px 8px', border: '1px solid #333' },
-  counterDisplay: {
-    fontFamily: 'var(--font-mono)', fontSize: 14, fontWeight: 700,
-    color: '#cc9922', letterSpacing: '0.15em', textShadow: '0 0 6px rgba(204,153,34,0.3)',
   },
   transportButtons: { display: 'flex', gap: 4, alignItems: 'center' },
   transportBtn: {

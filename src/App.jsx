@@ -391,7 +391,7 @@ export default function App() {
 
     try {
       // Call branch API
-      const res = await fetch('/api/branch', {
+      const res = await fetch('/api/diverge', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
