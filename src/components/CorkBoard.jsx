@@ -511,9 +511,13 @@ export function CorkBoard({ event, activeRipple, isPlaying, reddxPose, showReddx
     let tx = 0, ty = 0, z = 1
     if (match) { tx = parseFloat(match[1]); ty = parseFloat(match[2]); z = parseFloat(match[3]) }
     const newZ = Math.max(0.3, Math.min(2, z - e.deltaY * 0.001))
-    d.zoom = newZ; d.tx = tx; d.ty = ty
+    // Zoom toward mouse position
+    const mx = e.clientX, my = e.clientY
+    const newTx = mx - (mx - tx) * (newZ / z)
+    const newTy = my - (my - ty) * (newZ / z)
+    d.zoom = newZ; d.tx = newTx; d.ty = newTy
     setBoardTransition('none')
-    setBoardTransform(`translate(${tx}px, ${ty}px) scale(${newZ})`)
+    setBoardTransform(`translate(${newTx}px, ${newTy}px) scale(${newZ})`)
   }, [manualMode, boardTransform])
 
   // Keyboard navigation
@@ -529,8 +533,16 @@ export function CorkBoard({ event, activeRipple, isPlaying, reddxPose, showReddx
       if (e.key === 'ArrowRight' || e.key === 'd') { tx -= PAN; moved = true }
       if (e.key === 'ArrowUp' || e.key === 'w') { ty += PAN; moved = true }
       if (e.key === 'ArrowDown' || e.key === 's') { ty -= PAN; moved = true }
-      if (e.key === '=' || e.key === '+') { z = Math.min(2, z + 0.15); moved = true }
-      if (e.key === '-') { z = Math.max(0.3, z - 0.15); moved = true }
+      if (e.key === '=' || e.key === '+') {
+        const newZ = Math.min(2, z + 0.15)
+        const cx = window.innerWidth / 2, cy = window.innerHeight / 2
+        tx = cx - (cx - tx) * (newZ / z); ty = cy - (cy - ty) * (newZ / z); z = newZ; moved = true
+      }
+      if (e.key === '-') {
+        const newZ = Math.max(0.3, z - 0.15)
+        const cx = window.innerWidth / 2, cy = window.innerHeight / 2
+        tx = cx - (cx - tx) * (newZ / z); ty = cy - (cy - ty) * (newZ / z); z = newZ; moved = true
+      }
       if (moved) {
         e.preventDefault()
         setBoardTransition('transform 0.2s ease-out')

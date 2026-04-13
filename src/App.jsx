@@ -135,6 +135,7 @@ export default function App() {
   const [isBranching, setIsBranching] = useState(false)
   const [branchData, setBranchData] = useState(null)
   const [timelineGlitch, setTimelineGlitch] = useState(false)
+  const [caseComplete, setCaseComplete] = useState(false)
   const [introComplete, setIntroComplete] = useState(false)
   const [transitioningId, setTransitioningId] = useState(null)
   const [showOverlay, setShowOverlay] = useState(false)
@@ -164,6 +165,7 @@ export default function App() {
     setIsBranching(false)
     setBranchData(null)
     setTimelineGlitch(false)
+    setCaseComplete(false)
   }, [])
 
   // Load analysis.json from cache when event is selected
@@ -263,6 +265,9 @@ export default function App() {
           if (musicRef.current) musicRef.current.volume = 0.12
           setShowChoices(true)
         } else {
+          setCaseComplete(true)
+          playFolderSlap() // stamp sound
+          setTimeout(() => setCaseComplete(false), 3000)
           const fadeId = setInterval(() => {
             if (musicRef.current && musicRef.current.volume > 0.02) {
               musicRef.current.volume = Math.max(0, musicRef.current.volume - 0.02)
@@ -872,6 +877,22 @@ export default function App() {
           <div className="glitch-tear" style={{ animationDelay: '0.07s', top: '30%' }} />
           <div className="glitch-tear" style={{ animationDelay: '0.13s', top: '60%' }} />
           <div className="glitch-tear" style={{ animationDelay: '0.04s', top: '80%' }} />
+        </div>
+      )}
+
+      {caseComplete && (
+        <div className="case-complete" style={{
+          position: 'fixed', inset: 0, zIndex: 997, pointerEvents: 'none',
+          display: 'flex', alignItems: 'center', justifyContent: 'center',
+        }}>
+          <div style={{
+            fontFamily: 'var(--font-typewriter)', fontSize: 'clamp(36px, 7vw, 72px)',
+            fontWeight: 900, letterSpacing: '0.2em', color: '#cc3333',
+            border: '6px solid #cc3333', padding: '12px 40px',
+            transform: 'rotate(-8deg)', opacity: 0.85,
+            textShadow: '2px 2px 0 rgba(0,0,0,0.3)',
+            boxShadow: '4px 4px 0 rgba(0,0,0,0.2)',
+          }}>CASE CLOSED</div>
         </div>
       )}
 

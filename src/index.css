@@ -363,3 +363,17 @@ body::after {
   80% { opacity: 1; }
   100% { top: 105%; opacity: 0; }
 }
+
+/* === CASE CLOSED STAMP === */
+.case-complete {
+  animation: stamp-slam 3s ease forwards;
+}
+
+@keyframes stamp-slam {
+  0% { opacity: 0; transform: scale(2); }
+  8% { opacity: 1; transform: scale(1); }
+  12% { transform: scale(1.05); }
+  16% { transform: scale(1); }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
