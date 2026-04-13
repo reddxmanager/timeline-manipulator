@@ -28,7 +28,7 @@ export function BranchChoice({ choices, onChoose, isGenerating, branchResult }) 
       <div style={styles.header}>
         <div style={styles.headerLine} />
         <h3 style={styles.headerText}>
-          {branchResult ? 'You chose poorly.' : isGenerating ? 'Following the thread...' : 'What would you do?'}
+          {branchResult?.roast || (isGenerating ? 'Following the thread...' : 'What would you do?')}
         </h3>
         <div style={styles.headerLine} />
       </div>

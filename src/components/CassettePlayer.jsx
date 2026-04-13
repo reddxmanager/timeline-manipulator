@@ -163,12 +163,12 @@ const styles = {
     fontFamily: 'var(--font-typewriter)', fontSize: 8, fontWeight: 700,
     color: '#bba', letterSpacing: '0.05em', marginBottom: 2,
     textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden',
-    textOverflow: 'ellipsis', maxWidth: 200,
+    textOverflow: 'ellipsis', maxWidth: 200, margin: '0 auto',
   },
   tapeLabelSub: { fontFamily: 'var(--font-mono)', fontSize: 7, color: '#887', letterSpacing: '0.1em' },
   controlsRow: {
-    display: 'flex', alignItems: 'center', justifyContent: 'center',
-    padding: '6px 16px 8px', gap: 16,
+    display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+    padding: '6px 16px 8px',
   },
   transportButtons: { display: 'flex', gap: 4, alignItems: 'center' },
   transportBtn: {
