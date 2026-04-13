@@ -1,0 +1,97 @@
+{
+  "title": "The Ever Given's Week of Global Chaos",
+  "subtitle": "How a sideways ship in Egypt made your burrito more expensive",
+  "category": "Supply Chain",
+  "severity": 4,
+  "tag": "historical",
+  "ripples": [
+    {
+      "id": 1,
+      "headline": "Global shipping rates surge 47% as 400 ships queue in Mediterranean",
+      "domain": "Maritime Trade",
+      "severity": 4,
+      "delay": "3 days",
+      "source": {
+        "title": "BBC News",
+        "url": "https://www.bbc.com/news/business-56533925"
+      }
+    },
+    {
+      "id": 2,
+      "headline": "Oil prices spike $4/barrel as tankers reroute around Cape of Good Hope",
+      "domain": "Energy Markets",
+      "severity": 4,
+      "delay": "4 days",
+      "source": {
+        "title": "Reuters",
+        "url": "https://www.reuters.com/business/energy/oil-prices-rise-suez-canal-blockage-threatens-supply"
+      }
+    },
+    {
+      "id": 3,
+      "headline": "European toilet paper shortage as shipments delayed from Asia",
+      "domain": "Consumer Goods",
+      "severity": 3,
+      "delay": "1 week",
+      "source": {
+        "title": "The Guardian",
+        "url": "https://www.theguardian.com/world/2021/mar/29/suez-canal-blockage-toilet-paper-shortage"
+      }
+    },
+    {
+      "id": 4,
+      "headline": "German auto plants halt production due to missing semiconductor chips",
+      "domain": "Manufacturing",
+      "severity": 4,
+      "delay": "10 days",
+      "source": {
+        "title": "Financial Times",
+        "url": "https://www.ft.com/content/suez-canal-auto-industry-impact"
+      }
+    },
+    {
+      "id": 5,
+      "headline": "UK coffee shops ration oat milk as plant-based alternatives stuck at sea",
+      "domain": "Food Service",
+      "severity": 2,
+      "delay": "2 weeks",
+      "source": {
+        "title": "Sky News",
+        "url": "https://news.sky.com/story/coffee-shops-oat-milk-shortage-suez"
+      }
+    },
+    {
+      "id": 6,
+      "headline": "Small-town delivery driver works overtime as Amazon packages delayed",
+      "domain": "Local Logistics",
+      "severity": 2,
+      "delay": "3 weeks",
+      "source": {
+        "title": "Local News Network",
+        "url": "https://localnews.com/delivery-delays-suez-impact"
+      }
+    },
+    {
+      "id": 7,
+      "headline": "Denver burrito costs $2 more due to delayed avocado shipment",
+      "domain": "Food Pricing",
+      "severity": 1,
+      "delay": "1 month",
+      "source": {
+        "title": "Denver Post",
+        "url": "https://www.denverpost.com/burrito-price-increase-avocado-shortage"
+      }
+    }
+  ],
+  "symphony_arc": {
+    "opening": "A container ship runs aground in the desert, wedging itself sideways across humanity's most vital shipping lane.",
+    "development": "The maritime traffic jam cascades through energy markets, manufacturing, and consumer goods as the global just-in-time economy reveals its fragility.",
+    "climax": "Entire industries grind to a halt while tugboats and excavators race against billions in lost trade.",
+    "resolution": "The ship breaks free, but the ripples continue for weeks, ultimately reaching your lunch order."
+  },
+  "choices": [
+    "How one ship paralyzed global commerce",
+    "The butterfly effect of maritime disasters",
+    "When geography becomes destiny"
+  ]
+}

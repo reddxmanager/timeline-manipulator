@@ -1,0 +1,97 @@
+{
+  "title": "MrBeast's $500M Amazon Deal Triggers Global Content Wars",
+  "subtitle": "Creator economy shifts as tech giants battle for influence supremacy",
+  "category": "Media & Technology",
+  "severity": 4,
+  "tag": "speculative",
+  "ripples": [
+    {
+      "id": 1,
+      "headline": "YouTube panic-launches $2B creator retention fund as top talents defect to Amazon Prime",
+      "domain": "Platform Competition",
+      "severity": 5,
+      "delay": "2 weeks",
+      "source": {
+        "title": "The Verge",
+        "url": "https://theverge.com/youtube-creator-fund-amazon-response"
+      }
+    },
+    {
+      "id": 2,
+      "headline": "Netflix stock plummets 15% as investors fear Amazon's creator acquisition spree",
+      "domain": "Financial Markets",
+      "severity": 4,
+      "delay": "3 days",
+      "source": {
+        "title": "Bloomberg",
+        "url": "https://bloomberg.com/netflix-stock-amazon-creator-wars"
+      }
+    },
+    {
+      "id": 3,
+      "headline": "Feastables chocolate bars become exclusive Amazon Fresh product, disrupting retail partnerships",
+      "domain": "Retail Distribution",
+      "severity": 3,
+      "delay": "6 months",
+      "source": {
+        "title": "Retail Dive",
+        "url": "https://retaildive.com/feastables-amazon-exclusive-deal"
+      }
+    },
+    {
+      "id": 4,
+      "headline": "Small video production companies surge 300% as creators demand Hollywood-level content",
+      "domain": "Production Industry",
+      "severity": 3,
+      "delay": "4 months",
+      "source": {
+        "title": "Variety",
+        "url": "https://variety.com/production-companies-creator-economy-boom"
+      }
+    },
+    {
+      "id": 5,
+      "headline": "Global internet bandwidth costs spike as streaming platforms compete with premium content",
+      "domain": "Infrastructure",
+      "severity": 2,
+      "delay": "8 months",
+      "source": {
+        "title": "TechCrunch",
+        "url": "https://techcrunch.com/internet-bandwidth-streaming-wars-costs"
+      }
+    },
+    {
+      "id": 6,
+      "headline": "Remote villages in Bangladesh get fiber internet upgrades to access exclusive Prime content",
+      "domain": "Global Infrastructure",
+      "severity": 2,
+      "delay": "18 months",
+      "source": {
+        "title": "Reuters",
+        "url": "https://reuters.com/bangladesh-internet-infrastructure-streaming"
+      }
+    },
+    {
+      "id": 7,
+      "headline": "Local burrito shop raises prices $2 after delivery driver binge-watches MrBeast instead of working",
+      "domain": "Local Economy",
+      "severity": 1,
+      "delay": "3 months",
+      "source": {
+        "title": "The Daily Chronicle",
+        "url": "https://dailychronicle.com/burrito-prices-delivery-delays"
+      }
+    }
+  ],
+  "symphony_arc": {
+    "opening": "A digital titan makes a half-billion dollar bet on the future of entertainment",
+    "development": "Traditional platforms scramble as the creator economy reshapes global media consumption",
+    "climax": "Infrastructure strains under the weight of premium content wars while markets convulse",
+    "resolution": "The world adapts to a new entertainment paradigm, one overpriced burrito at a time"
+  },
+  "choices": [
+    "Stream the chaos",
+    "Subscribe to uncertainty",
+    "Buffer the consequences"
+  ]
+}

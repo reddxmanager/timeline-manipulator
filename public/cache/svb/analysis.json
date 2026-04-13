@@ -1,0 +1,97 @@
+{
+  "title": "Silicon Valley Bank's 48-Hour Collapse Ripples Into Global Absurdity",
+  "subtitle": "From banking panic to burrito pricing: How financial contagion reached your lunch",
+  "category": "Economic Collapse",
+  "severity": 4,
+  "tag": "historical",
+  "ripples": [
+    {
+      "id": 1,
+      "headline": "Regional banks lose $100B in market value as contagion spreads to Credit Suisse",
+      "domain": "Banking",
+      "severity": 5,
+      "delay": "3 days",
+      "source": {
+        "title": "Financial Times",
+        "url": "https://www.ft.com/content/banking-crisis-2023"
+      }
+    },
+    {
+      "id": 2,
+      "headline": "Tech startups scramble for new banking partners, venture funding freezes",
+      "domain": "Technology",
+      "severity": 4,
+      "delay": "1 week",
+      "source": {
+        "title": "TechCrunch",
+        "url": "https://techcrunch.com/svb-startup-impact"
+      }
+    },
+    {
+      "id": 3,
+      "headline": "Wine country vineyards face cash flow crisis as SVB held 44% of wine industry deposits",
+      "domain": "Agriculture",
+      "severity": 3,
+      "delay": "2 weeks",
+      "source": {
+        "title": "Wine Spectator",
+        "url": "https://winespectator.com/svb-wine-industry"
+      }
+    },
+    {
+      "id": 4,
+      "headline": "Federal regulators tighten oversight on mid-size banks, compliance costs surge",
+      "domain": "Regulation",
+      "severity": 3,
+      "delay": "6 weeks",
+      "source": {
+        "title": "Wall Street Journal",
+        "url": "https://wsj.com/banking-regulation-response"
+      }
+    },
+    {
+      "id": 5,
+      "headline": "Small business lending drops 23% as community banks hoard cash reserves",
+      "domain": "Small Business",
+      "severity": 3,
+      "delay": "3 months",
+      "source": {
+        "title": "Bloomberg",
+        "url": "https://bloomberg.com/small-business-lending"
+      }
+    },
+    {
+      "id": 6,
+      "headline": "Local food trucks struggle with payment processing as fintech partners pull services",
+      "domain": "Food Service",
+      "severity": 2,
+      "delay": "4 months",
+      "source": {
+        "title": "Restaurant Business",
+        "url": "https://restaurantbusiness.com/fintech-food-trucks"
+      }
+    },
+    {
+      "id": 7,
+      "headline": "San Francisco burrito costs $18 as food truck financing gaps force premium pricing",
+      "domain": "Daily Life",
+      "severity": 1,
+      "delay": "6 months",
+      "source": {
+        "title": "SF Gate",
+        "url": "https://sfgate.com/expensive-burrito-crisis"
+      }
+    }
+  ],
+  "symphony_arc": {
+    "opening": "A bank's 48-hour death spiral begins with uninsured deposits and rising rates",
+    "development": "Contagion spreads through interconnected financial networks and industry clusters",
+    "climax": "Regulatory response reshapes lending landscape across all business sizes",
+    "resolution": "The butterfly effect reaches your lunch order through cascading economic friction"
+  },
+  "choices": [
+    "Track the wine industry fallout",
+    "Follow the startup funding freeze",
+    "Examine regulatory overcorrection"
+  ]
+}

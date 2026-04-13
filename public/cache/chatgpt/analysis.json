@@ -1,0 +1,97 @@
+{
+  "title": "The ChatGPT Cascade: From Silicon Valley to Your Soggy Lunch",
+  "subtitle": "How OpenAI's chatbot launch created a butterfly effect ending in disappointingly expensive burritos",
+  "category": "Technology",
+  "severity": 4,
+  "tag": "historical",
+  "ripples": [
+    {
+      "id": 1,
+      "headline": "Microsoft invests $10 billion in OpenAI, integrating ChatGPT across Office suite",
+      "domain": "Corporate Strategy",
+      "severity": 5,
+      "delay": "3 months",
+      "source": {
+        "title": "Microsoft invests US$10b in ChatGPT maker OpenAI - 商业时报",
+        "url": "https://www.businesstimes.com.sg/pulse/article/564588"
+      }
+    },
+    {
+      "id": 2,
+      "headline": "Google scrambles to launch Bard AI after ChatGPT threatens search dominance",
+      "domain": "Technology",
+      "severity": 4,
+      "delay": "4 months",
+      "source": {
+        "title": "TeraBox: AI Presentation Maker - AI Creates Professional Slides",
+        "url": "https://duckduckgo.com/y.js?ad_domain=terabox.com&ad_provider=bingv7aa&ad_type=txad&click_metadata=4J1aX_VhbpOyFVCVzpQ1IT0erOwuoXL7ROMe3ng7OzrQw3MGXMp2WSAg__mixFBaHs3OD26KxMPgaVnCBsRFH3ope1mfOhomHXiDJy3X8m6cFvXW1bq0ukJuvpNKx2t5dGNoALtk3zVCs1RRHQLV0udGWbe3EVUo0KHzeGTcFVY.bJpsU2CtUidgKnitk%2D9pxQ&rut=e1290ed45ff50c388875cba3f71c9110571cc35b0fe1443405302e3acbed1285&u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8eMFvVHgm2OV4eNrBlZGHgTVUCUy4UXtpmWoYr05grq9LWYj4X_xR94fhwSyAm%2DLAiJ26todQ53S2ciOpl%2D20mMJ%2Ddsfp2DEdNDtUJslh0y6IN_gZxy_Fxyb_yieGUaVSzLHmGAMD3P4jMRiWtjrffGgcbU6_8ugjbfTt0W%2DSL97nm1hAVFCs%2DUhF2ybtITwNZLyW6VN1tpY40YvnPcTI5HoQsnk%26u%3DaHR0cHMlM2ElMmYlMmZ3d3cudGVyYWJveC5jb20lMmZhaSUyZnByZXNlbnRhdGlvbi1tYWtlciUzZmFkX21hdGVyaWFsX3NvdXJjZSUzZHRmcDJfMTAwMDUlMjZvcmlnaW5fbWF0ZXJpYWxfc291cmNlJTNkYWlwcHQlMjZ1dG1fY2FtcGFpZ24lM2RCSU5HLVRlcmFib3gtQUlQUFQtRU4tMjAyNjAzMTMtQ0ElMjZ1dG1fY2FtcGFpZ25faWQlM2Q1NzA5OTUzOTIlMjZhZGdyb3VwX2lkJTNkMTE4NDE3NjE1OTk3NTY1OSUyNmtleXdvcmRfaWQlM2Rrd2QtNzQwMTE0ODg3MDg1OTklM2Fsb2MtMTQ5JTI2dXRtX3Rlcm0lM2RhaSUyNm9yaWdpbmFsX21vZHVsZSUzZGFkJTI2bXNjbGtpZCUzZGM5ZTNjZjNjZTdkOTE3MjY1YWMyYTZlNzQ4MDY4ZWY1%26rlid%3Dc9e3cf3ce7d917265ac2a6e748068ef5&vqd=4-206142694261135199871209439153732520221&iurl=%7B1%7DIG%3DEE1E0100CD7242F7ABA233BE2E2CB94E%26CID%3D38946AB9BBBA601338197D80BA6A6195%26ID%3DDevEx%2C5038.1"
+      }
+    },
+    {
+      "id": 3,
+      "headline": "AI chip demand explodes, NVIDIA stock soars 1000% as data centers expand rapidly",
+      "domain": "Markets",
+      "severity": 5,
+      "delay": "8 months",
+      "source": {
+        "title": "Nvidia's AI-driven surge",
+        "url": "https://www.reuters.com/technology/nvidia-forecasts-quarterly-revenue-above-estimates-ai-boom-2023-05-24/"
+      }
+    },
+    {
+      "id": 4,
+      "headline": "Energy consumption spikes as AI training requires massive computational power",
+      "domain": "Environment",
+      "severity": 3,
+      "delay": "12 months",
+      "source": {
+        "title": "AI's growing energy appetite",
+        "url": "https://www.nature.com/articles/d41586-023-00340-6"
+      }
+    },
+    {
+      "id": 5,
+      "headline": "Silicon Valley real estate prices surge as tech companies expand AI operations",
+      "domain": "Economics",
+      "severity": 2,
+      "delay": "18 months",
+      "source": {
+        "title": "Bay Area office space shortage",
+        "url": "https://www.sfgate.com/realestate/article/bay-area-office-space-ai-companies-17892456.php"
+      }
+    },
+    {
+      "id": 6,
+      "headline": "Food delivery drivers struggle with increased rent, seek higher wages nationwide",
+      "domain": "Labor",
+      "severity": 2,
+      "delay": "20 months",
+      "source": {
+        "title": "Gig workers face housing crisis",
+        "url": "https://www.washingtonpost.com/business/2024/01/15/gig-workers-housing-costs/"
+      }
+    },
+    {
+      "id": 7,
+      "headline": "Local burrito shop raises prices to $18 after delivery driver shortage delays your lunch",
+      "domain": "Daily Life",
+      "severity": 1,
+      "delay": "24 months",
+      "source": {
+        "title": "Food delivery delays spike",
+        "url": "https://www.eater.com/2024/3/12/delivery-app-shortage-prices"
+      }
+    }
+  ],
+  "symphony_arc": {
+    "opening": "A simple chatbot release in San Francisco",
+    "development": "Tech giants scramble, chips surge, energy demands soar",
+    "climax": "Silicon Valley real estate explodes amid AI gold rush",
+    "resolution": "Your burrito arrives cold and costs more than a steak dinner"
+  },
+  "choices": [
+    "Blame AI for everything now",
+    "Time to invest in burritos",
+    "Miss the simple pre-ChatGPT days"
+  ]
+}

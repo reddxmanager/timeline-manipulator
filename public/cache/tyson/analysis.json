@@ -1,0 +1,97 @@
+{
+  "title": "Mike Tyson's Netflix Knockout Triggers Global Economic Chain Reaction",
+  "subtitle": "From streaming wars to supply chains, one punch reshapes multiple industries",
+  "category": "Economic Disruption",
+  "severity": 4,
+  "tag": "speculative",
+  "ripples": [
+    {
+      "id": 1,
+      "headline": "Netflix Stock Surges 15% as Tyson-Paul Fight Breaks Streaming Records",
+      "domain": "Entertainment",
+      "severity": 3,
+      "delay": "24 hours",
+      "source": {
+        "title": "Variety",
+        "url": "https://variety.com/netflix-earnings-streaming"
+      }
+    },
+    {
+      "id": 2,
+      "headline": "Influencer Marketing Industry Faces $2B Valuation Drop After Paul's Defeat",
+      "domain": "Digital Marketing",
+      "severity": 4,
+      "delay": "1 week",
+      "source": {
+        "title": "AdAge",
+        "url": "https://adage.com/influencer-marketing-trends"
+      }
+    },
+    {
+      "id": 3,
+      "headline": "China Implements Emergency Tariffs on US Boxing Equipment Imports",
+      "domain": "Trade Policy",
+      "severity": 4,
+      "delay": "2 weeks",
+      "source": {
+        "title": "Reuters",
+        "url": "https://reuters.com/china-us-trade-tensions"
+      }
+    },
+    {
+      "id": 4,
+      "headline": "AI Betting Models Crash as ChatGPT Fails to Predict Tyson Victory",
+      "domain": "Artificial Intelligence",
+      "severity": 3,
+      "delay": "3 days",
+      "source": {
+        "title": "TechCrunch",
+        "url": "https://techcrunch.com/ai-prediction-models"
+      }
+    },
+    {
+      "id": 5,
+      "headline": "TikTok Ban Accelerated as US Officials Cite 'Boxing Content Security Risks'",
+      "domain": "Social Media Policy",
+      "severity": 4,
+      "delay": "1 month",
+      "source": {
+        "title": "Politico",
+        "url": "https://politico.com/tiktok-national-security"
+      }
+    },
+    {
+      "id": 6,
+      "headline": "Strait of Hormuz Shipping Disrupted by Increased Saudi Sports Investment Fleet",
+      "domain": "Maritime Trade",
+      "severity": 4,
+      "delay": "6 months",
+      "source": {
+        "title": "Lloyd's List",
+        "url": "https://lloydslist.com/strait-hormuz-shipping"
+      }
+    },
+    {
+      "id": 7,
+      "headline": "Local Food Truck Owner Can't Afford $18 Victory Burrito Due to Inflation",
+      "domain": "Consumer Spending",
+      "severity": 1,
+      "delay": "2 hours",
+      "source": {
+        "title": "Yelp Reviews",
+        "url": "https://yelp.com/local-food-reviews"
+      }
+    }
+  ],
+  "symphony_arc": {
+    "opening": "A single knockout punch reverberates through Netflix's servers, sending shockwaves across entertainment markets.",
+    "development": "The defeat of a major influencer cascades through digital marketing valuations, triggering unexpected trade tensions and AI model failures.",
+    "climax": "Geopolitical tensions escalate as nations rush to capitalize on shifting cultural power dynamics and technological vulnerabilities.",
+    "resolution": "While global markets eventually stabilize, somewhere a hungry fan discovers their celebratory burrito now costs more than their Netflix subscription."
+  },
+  "choices": [
+    "Invest in traditional boxing promotion companies",
+    "Short influencer marketing ETFs immediately",
+    "Stock up on reasonably-priced burritos"
+  ]
+}

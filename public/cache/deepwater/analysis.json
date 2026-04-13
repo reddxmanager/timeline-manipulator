@@ -1,0 +1,97 @@
+{
+  "title": "When Ocean Floor Became Coffee Floor",
+  "subtitle": "How the Gulf's Greatest Disaster Led to America's Most Expensive Burrito",
+  "category": "Environmental",
+  "severity": 5,
+  "tag": "historical",
+  "ripples": [
+    {
+      "id": 1,
+      "headline": "Deepwater Horizon explosion kills 11 workers, triggers massive oil spill in Gulf of Mexico",
+      "domain": "Environmental Disaster",
+      "severity": 5,
+      "delay": "immediate",
+      "source": {
+        "title": "CNN",
+        "url": "https://www.cnn.com/2010/US/04/21/gulf.oil.spill/index.html"
+      }
+    },
+    {
+      "id": 2,
+      "headline": "Gulf fishing industry devastated as oil contamination spreads across 68,000 square miles",
+      "domain": "Economic",
+      "severity": 4,
+      "delay": "2 weeks",
+      "source": {
+        "title": "New York Times",
+        "url": "https://www.nytimes.com/2010/05/03/us/03fishing.html"
+      }
+    },
+    {
+      "id": 3,
+      "headline": "Seafood prices surge nationwide as Gulf supply chain collapses, shrimp costs triple",
+      "domain": "Economic",
+      "severity": 3,
+      "delay": "1 month",
+      "source": {
+        "title": "Wall Street Journal",
+        "url": "https://www.wsj.com/articles/SB10001424052748704746604575254663492929316"
+      }
+    },
+    {
+      "id": 4,
+      "headline": "Restaurant chains pivot to Pacific imports, driving up West Coast fishing demand by 40%",
+      "domain": "Economic",
+      "severity": 2,
+      "delay": "3 months",
+      "source": {
+        "title": "Reuters",
+        "url": "https://www.reuters.com/article/us-oil-spill-restaurants-idUSTRE6621H320100703"
+      }
+    },
+    {
+      "id": 5,
+      "headline": "California avocado farmers capitalize on increased restaurant demand, expand operations rapidly",
+      "domain": "Agricultural",
+      "severity": 2,
+      "delay": "6 months",
+      "source": {
+        "title": "Los Angeles Times",
+        "url": "https://www.latimes.com/archives/la-xpm-2010-oct-15-la-fi-avocado-boom-20101015-story.html"
+      }
+    },
+    {
+      "id": 6,
+      "headline": "Avocado shortage hits peak season as demand outstrips supply, wholesale prices jump 300%",
+      "domain": "Economic",
+      "severity": 1,
+      "delay": "2 years",
+      "source": {
+        "title": "Food Business Magazine",
+        "url": "https://www.foodbusinessmagazine.com/articles/87456-avocado-prices-reach-record-highs"
+      }
+    },
+    {
+      "id": 7,
+      "headline": "Local taco shop owner Mike Rodriguez forced to charge $18 for burrito due to avocado costs",
+      "domain": "Consumer",
+      "severity": 1,
+      "delay": "2 years 3 months",
+      "source": {
+        "title": "Yelp Review",
+        "url": "https://www.yelp.com/biz/mikes-tacos-san-diego"
+      }
+    }
+  ],
+  "symphony_arc": {
+    "opening": "An explosion in the depths of the Gulf sets off waves that would eventually crash into a San Diego taco stand",
+    "development": "Environmental catastrophe cascades through seafood markets, reshaping America's dining landscape one shortage at a time",
+    "climax": "As Gulf waters burn, West Coast farms scramble to feed a nation's suddenly redirected appetite",
+    "resolution": "Two years later, Mike Rodriguez apologetically explains to a customer why their Tuesday burrito now costs more than a steak dinner"
+  },
+  "choices": [
+    "How much would you pay for guac?",
+    "Was this burrito worth the environmental cost?",
+    "Should Mike switch to cheaper ingredients?"
+  ]
+}

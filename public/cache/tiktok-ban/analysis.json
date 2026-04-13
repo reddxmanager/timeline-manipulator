@@ -1,0 +1,97 @@
+{
+  "title": "The Great Digital Exodus",
+  "subtitle": "How America's TikTok ban triggered a global chain reaction ending in expensive burritos",
+  "category": "Technology & Society",
+  "severity": 4,
+  "tag": "speculative",
+  "ripples": [
+    {
+      "id": 1,
+      "headline": "Instagram Reels servers crash as 170 million users migrate simultaneously",
+      "domain": "Technology",
+      "severity": 4,
+      "delay": "24 hours",
+      "source": {
+        "title": "Meta Infrastructure Report 2024",
+        "url": "https://about.fb.com/news/2024/infrastructure-challenges"
+      }
+    },
+    {
+      "id": 2,
+      "headline": "Chinese tech stocks plummet 15% amid fears of broader US tech decoupling",
+      "domain": "Finance",
+      "severity": 3,
+      "delay": "48 hours",
+      "source": {
+        "title": "Financial Times Tech Markets Analysis",
+        "url": "https://ft.com/content/china-tech-stocks-decline-2024"
+      }
+    },
+    {
+      "id": 3,
+      "headline": "European Union fast-tracks digital sovereignty legislation citing US precedent",
+      "domain": "Politics",
+      "severity": 3,
+      "delay": "1 week",
+      "source": {
+        "title": "European Commission Digital Policy Updates",
+        "url": "https://ec.europa.eu/digital-single-market/en/news"
+      }
+    },
+    {
+      "id": 4,
+      "headline": "YouTube advertising rates surge 40% as brands scramble for short-form video inventory",
+      "domain": "Business",
+      "severity": 2,
+      "delay": "2 weeks",
+      "source": {
+        "title": "AdAge Digital Advertising Trends Report",
+        "url": "https://adage.com/article/digital-advertising-trends-2024"
+      }
+    },
+    {
+      "id": 5,
+      "headline": "Influencer marketing agencies report 60% revenue drop as creator economy fragments",
+      "domain": "Marketing",
+      "severity": 2,
+      "delay": "1 month",
+      "source": {
+        "title": "Influencer Marketing Hub Industry Report",
+        "url": "https://influencermarketinghub.com/state-of-influencer-marketing-report"
+      }
+    },
+    {
+      "id": 6,
+      "headline": "Food delivery apps overwhelmed as former TikTok food reviewers flood platforms",
+      "domain": "Food Service",
+      "severity": 1,
+      "delay": "6 weeks",
+      "source": {
+        "title": "Restaurant Business Magazine Tech Trends",
+        "url": "https://restaurantbusinessonline.com/technology/trends-2024"
+      }
+    },
+    {
+      "id": 7,
+      "headline": "Local burrito shop raises prices 20% due to sudden influx of food bloggers and delayed avocado shipments",
+      "domain": "Local Business",
+      "severity": 1,
+      "delay": "2 months",
+      "source": {
+        "title": "Springfield Daily News Business Section",
+        "url": "https://springfielddaily.com/business/local-restaurant-price-increases"
+      }
+    }
+  ],
+  "symphony_arc": {
+    "opening": "The digital earthquake begins at midnight EST as 170 million Americans lose their primary social platform",
+    "development": "Cascading server failures and market panic spread globally as the tech ecosystem scrambles to adapt",
+    "climax": "Geopolitical tensions peak as nations reconsider their digital dependencies and sovereignty",
+    "resolution": "The dust settles into a new normal where even local businesses feel the ripples of digital disruption"
+  },
+  "choices": [
+    "Trace the creator economy collapse",
+    "Follow the geopolitical implications",
+    "Examine the platform migration chaos"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "timeline-manipulator",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "cache": "node --env-file=.env.local scripts/generate-cache.js",
+    "cache:hormuz": "node --env-file=.env.local scripts/generate-cache.js hormuz",
+    "cache:svb": "node --env-file=.env.local scripts/generate-cache.js svb",
+    "cache:fresh": "node --env-file=.env.local scripts/generate-cache.js",
+    "cache:narration-only": "node --env-file=.env.local scripts/generate-cache.js hormuz --only-narration",
+    "cache:music-only": "node --env-file=.env.local scripts/generate-cache.js hormuz --only-music",
+    "update-sources": "node scripts/update-sources.js",
+    "ambient": "node --env-file=.env.local scripts/generate-ambient.js",
+    "seed": "node --env-file=.env.local scripts/seed-turbopuffer.js",
+    "test-music": "node --env-file=.env.local scripts/test-music.js"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "d3": "^7.9.0",
+    "framer-motion": "^11.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.0",
+    "vite": "^5.4.0"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "title": "Bitcoin Reaches $1 Million, Sparking Global Financial Chaos",
+  "subtitle": "Cryptocurrency surge triggers regulatory crackdowns and mass market hysteria",
+  "category": "Financial Crisis",
+  "severity": 5,
+  "tag": "speculative",
+  "ripples": [
+    {
+      "id": 1,
+      "headline": "Central banks worldwide implement emergency crypto trading halts as traditional markets plummet",
+      "domain": "Financial",
+      "severity": 5,
+      "delay": "6 hours",
+      "source": {
+        "title": "Just another crypto boom? Mind the blind spots - European Central Bank",
+        "url": "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/special/html/ecb.fsrart202505_01~62255f2625.en.html"
+      }
+    },
+    {
+      "id": 2,
+      "headline": "Power grids strain as Bitcoin mining operations surge 400% overnight across North America",
+      "domain": "Energy",
+      "severity": 4,
+      "delay": "2 days",
+      "source": {
+        "title": "Bitcoin mining difficulty drops after hashrate collapse in China - CNBC",
+        "url": "https://www.cnbc.com/2021/07/03/bitcoin-mining-difficulty-drops-after-hashrate-collapse-in-china-.html"
+      }
+    },
+    {
+      "id": 3,
+      "headline": "Chinese government announces complete ban on all cryptocurrency transactions, Yuan strengthens",
+      "domain": "Geopolitical",
+      "severity": 4,
+      "delay": "1 week",
+      "source": {
+        "title": "China Bans All Cryptocurrency Activities Effective June 1 2025",
+        "url": "https://www.ainvest.com/news/china-bans-cryptocurrency-activities-effective-june-1-2025-2506/"
+      }
+    },
+    {
+      "id": 4,
+      "headline": "Graphics card shortages return as retail investors build mining rigs, gaming industry protests",
+      "domain": "Technology",
+      "severity": 3,
+      "delay": "3 weeks",
+      "source": {
+        "title": "The Great GPU Shortage of 2025: Why Graphics Cards Are So Hard to Find",
+        "url": "https://thinglabs.io/the-great-gpu-shortage-of-2025-why-graphics-cards-are-so-hard-to-find"
+      }
+    },
+    {
+      "id": 5,
+      "headline": "College students drop out en masse to become day traders, university enrollment plummets 15%",
+      "domain": "Social",
+      "severity": 3,
+      "delay": "2 months",
+      "source": {
+        "title": "The Looming College-Enrollment Death Spiral - The Atlantic",
+        "url": "https://www.theatlantic.com/ideas/2026/04/college-enrollment-demographic-cliff/686750/"
+      }
+    },
+    {
+      "id": 6,
+      "headline": "Mental health counselors report 300% increase in gambling addiction cases related to crypto trading",
+      "domain": "Health",
+      "severity": 3,
+      "delay": "6 months",
+      "source": {
+        "title": "National Today",
+        "url": "https://nationaltoday.com/"
+      }
+    },
+    {
+      "id": 7,
+      "headline": "Local burrito shop raises prices to $47 after owner's Bitcoin windfall makes him feel generous with ingredients",
+      "domain": "Lifestyle",
+      "severity": 1,
+      "delay": "8 months",
+      "source": {
+        "title": "How a viral $22 burrito explains inflation in the US",
+        "url": "https://www.theguardian.com/food/ng-interactive/2024/mar/27/burrito-price-inflation-vaca-birria-san-francisco"
+      }
+    }
+  ],
+  "symphony_arc": {
+    "opening": "A digital gold rush begins as Bitcoin's impossible milestone triggers worldwide financial mania",
+    "development": "Governments scramble to respond while infrastructure buckles under unprecedented demand",
+    "climax": "Social fabric strains as an entire generation abandons traditional paths for crypto dreams",
+    "resolution": "Reality settles in through unexpected places, from therapy sessions to overpriced lunch"
+  },
+  "choices": [
+    "Regulate crypto immediately",
+    "Buy the dip anyway",
+    "Hide cash under mattress"
+  ]
+}

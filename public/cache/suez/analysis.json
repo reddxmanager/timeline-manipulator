@@ -1,0 +1,97 @@
+{
+  "title": "Suez Canal Blocked Again by Container Ship",
+  "subtitle": "Ever Forward runs aground, triggering global supply chain chaos",
+  "category": "Economic Disruption",
+  "severity": 4,
+  "tag": "speculative",
+  "ripples": [
+    {
+      "id": 1,
+      "headline": "Oil prices surge 15% as tankers queue in Red Sea",
+      "domain": "Energy",
+      "severity": 4,
+      "delay": "6 hours",
+      "source": {
+        "title": "Bloomberg Energy",
+        "url": "https://bloomberg.com/energy"
+      }
+    },
+    {
+      "id": 2,
+      "headline": "European car factories halt production amid parts shortage",
+      "domain": "Manufacturing",
+      "severity": 4,
+      "delay": "3 days",
+      "source": {
+        "title": "Reuters Industrial",
+        "url": "https://reuters.com/business/autos"
+      }
+    },
+    {
+      "id": 3,
+      "headline": "Amazon Prime delivery delays spread across US East Coast",
+      "domain": "Retail",
+      "severity": 3,
+      "delay": "1 week",
+      "source": {
+        "title": "Wall Street Journal",
+        "url": "https://wsj.com/business/retail"
+      }
+    },
+    {
+      "id": 4,
+      "headline": "Coffee bean shortage drives Starbucks prices up 8%",
+      "domain": "Food & Beverage",
+      "severity": 2,
+      "delay": "2 weeks",
+      "source": {
+        "title": "Financial Times",
+        "url": "https://ft.com/companies/food-beverage"
+      }
+    },
+    {
+      "id": 5,
+      "headline": "Wedding planners scramble as flower imports delayed",
+      "domain": "Services",
+      "severity": 2,
+      "delay": "3 weeks",
+      "source": {
+        "title": "USA Today Lifestyle",
+        "url": "https://usatoday.com/life"
+      }
+    },
+    {
+      "id": 6,
+      "headline": "Local bookstore raises prices on imported novels",
+      "domain": "Retail",
+      "severity": 1,
+      "delay": "1 month",
+      "source": {
+        "title": "Publishers Weekly",
+        "url": "https://publishersweekly.com"
+      }
+    },
+    {
+      "id": 7,
+      "headline": "Sarah's birthday gift arrives late, burrito costs $18",
+      "domain": "Personal",
+      "severity": 1,
+      "delay": "6 weeks",
+      "source": {
+        "title": "Local News Denver",
+        "url": "https://denver7.com/local"
+      }
+    }
+  ],
+  "symphony_arc": {
+    "opening": "A massive container ship runs aground in the Suez Canal, instantly creating a maritime traffic jam that will ripple across continents.",
+    "development": "Global supply chains, already fragile from previous disruptions, begin to fracture as oil tankers queue and factories halt production.",
+    "climax": "The blockage creates cascading shortages from car parts to coffee beans, driving inflation and touching every corner of the economy.",
+    "resolution": "While the ship is eventually freed, the butterfly effect continues for weeks, culminating in overpriced burritos and delayed birthday presents."
+  },
+  "choices": [
+    "Invest in alternative shipping routes immediately",
+    "Stockpile essential goods before prices surge",
+    "Short shipping companies, long oil futures"
+  ]
+}

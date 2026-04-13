@@ -1,0 +1,97 @@
+{
+  "title": "Amazon Workers Force $25 Wage in Historic Nationwide Vote",
+  "subtitle": "Coordinated unionization across 500+ facilities triggers supply chain upheaval",
+  "category": "Labor Revolution",
+  "severity": 5,
+  "tag": "speculative",
+  "ripples": [
+    {
+      "id": 1,
+      "headline": "Walmart, Target announce emergency wage increases to prevent mass walkouts",
+      "domain": "Labor Economics",
+      "severity": 4,
+      "delay": "72 hours",
+      "source": {
+        "title": "Walmart Rolls Out New Raise Strategy for Hourly Store Workers ...",
+        "url": "https://www.businessinsider.com/walmart-rolls-out-new-raise-strategy-for-hourly-store-workers-2025-10?op=1"
+      }
+    },
+    {
+      "id": 2,
+      "headline": "Federal Reserve warns of inflation spike as wage floors reset nationwide",
+      "domain": "Monetary Policy",
+      "severity": 4,
+      "delay": "1 week",
+      "source": {
+        "title": "Wage gains have outpaced inflation for nearly three years. The war ...",
+        "url": "https://www.cnn.com/2026/04/09/economy/us-cpi-inflation-march-preview-war-wages"
+      }
+    },
+    {
+      "id": 3,
+      "headline": "Automation companies see 400% stock surge as retailers plan robot workforce",
+      "domain": "Technology Investment",
+      "severity": 3,
+      "delay": "2 weeks",
+      "source": {
+        "title": "Smart Meter Opt Out | How the world changed into the # ... - Facebook",
+        "url": "https://www.facebook.com/groups/optoutsmartmeter/posts/2415909552186295/"
+      }
+    },
+    {
+      "id": 4,
+      "headline": "Small business owners pivot to subscription models to offset labor costs",
+      "domain": "Business Strategy",
+      "severity": 3,
+      "delay": "1 month",
+      "source": {
+        "title": "Why small businesses are shifting to subscription models in 2025",
+        "url": "https://www.digitaljournal.com/business/why-small-businesses-are-shifting-to-subscription-models-in-2025/article"
+      }
+    },
+    {
+      "id": 5,
+      "headline": "EU proposes emergency tariffs on US goods as wage arbitrage disappears",
+      "domain": "International Trade",
+      "severity": 2,
+      "delay": "6 weeks",
+      "source": {
+        "title": "Financial Times",
+        "url": "https://ft.com/trade-policy"
+      }
+    },
+    {
+      "id": 6,
+      "headline": "Coffee shop chains reduce operating hours due to staffing cost pressures",
+      "domain": "Service Industry",
+      "severity": 2,
+      "delay": "3 months",
+      "source": {
+        "title": "Coffee Shop Labor Shortage 2026: Why the Staffing Crisis is Getting ...",
+        "url": "https://coffenzo.com/coffee-shop-labor-shortage/"
+      }
+    },
+    {
+      "id": 7,
+      "headline": "Local burrito shop raises prices by $3, customer complains on Yelp",
+      "domain": "Consumer Experience",
+      "severity": 1,
+      "delay": "4 months",
+      "source": {
+        "title": "SF Mission taqueria La Vaca Birria raises price on its burrito",
+        "url": "https://www.sfchronicle.com/food/restaurants/article/burrito-la-vaca-briria-sf-18884892.php"
+      }
+    }
+  ],
+  "symphony_arc": {
+    "opening": "A synchronized labor uprising reshapes America's economic foundation overnight",
+    "development": "Wage pressures cascade through supply chains as automation investments accelerate",
+    "climax": "Global trade relationships fracture as competitive advantages evaporate",
+    "resolution": "The new economy settles into higher-cost equilibrium, one overpriced burrito at a time"
+  },
+  "choices": [
+    "Support worker solidarity movement",
+    "Invest in automation stocks immediately",
+    "Stock up before price increases"
+  ]
+}

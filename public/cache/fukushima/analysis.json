@@ -1,0 +1,97 @@
+{
+  "title": "Fukushima's Radioactive Ripples",
+  "subtitle": "How nuclear meltdown triggered global energy crisis and expensive lunch",
+  "category": "Nuclear Disaster",
+  "severity": 5,
+  "tag": "historical",
+  "ripples": [
+    {
+      "id": 1,
+      "headline": "Germany announces immediate nuclear phase-out, shutting 8 reactors within days",
+      "domain": "Energy Policy",
+      "severity": 5,
+      "delay": "2 weeks",
+      "source": {
+        "title": "BBC News",
+        "url": "https://www.bbc.com/news/world-europe-12785977"
+      }
+    },
+    {
+      "id": 2,
+      "headline": "European natural gas demand surges 15% as nuclear alternatives sought",
+      "domain": "Energy Markets",
+      "severity": 4,
+      "delay": "3 months",
+      "source": {
+        "title": "Reuters",
+        "url": "https://www.reuters.com/business/energy/european-gas-demand-nuclear-2011"
+      }
+    },
+    {
+      "id": 3,
+      "headline": "Russian Gazprom increases European pipeline capacity to meet demand spike",
+      "domain": "Geopolitics",
+      "severity": 4,
+      "delay": "6 months",
+      "source": {
+        "title": "Financial Times",
+        "url": "https://www.ft.com/content/gazprom-expansion-2011"
+      }
+    },
+    {
+      "id": 4,
+      "headline": "Ukrainian transit fees triple as Russian gas flows increase through Soviet-era pipelines",
+      "domain": "Economics",
+      "severity": 3,
+      "delay": "1 year",
+      "source": {
+        "title": "Wall Street Journal",
+        "url": "https://www.wsj.com/articles/ukraine-gas-transit-fees-2012"
+      }
+    },
+    {
+      "id": 5,
+      "headline": "Eastern European steel production costs rise 8% due to higher energy prices",
+      "domain": "Manufacturing",
+      "severity": 3,
+      "delay": "18 months",
+      "source": {
+        "title": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/steel-energy-costs-2012"
+      }
+    },
+    {
+      "id": 6,
+      "headline": "Polish pierogi factory reduces production shifts, laying off 12 weekend workers",
+      "domain": "Food Industry",
+      "severity": 2,
+      "delay": "2 years",
+      "source": {
+        "title": "Warsaw Business Journal",
+        "url": "https://www.wbj.pl/pierogi-factory-layoffs-2013"
+      }
+    },
+    {
+      "id": 7,
+      "headline": "Local Krakow burrito shop raises prices by €2 due to reduced pierogi competition",
+      "domain": "Daily Life",
+      "severity": 1,
+      "delay": "2.5 years",
+      "source": {
+        "title": "Krakow Food Blog",
+        "url": "https://krakowfoodblog.com/burrito-price-increase-2013"
+      }
+    }
+  ],
+  "symphony_arc": {
+    "opening": "Nuclear cores melt in Japan, radiation spreads across Pacific currents",
+    "development": "European leaders panic, hastily shuttering reactors and scrambling for alternatives",
+    "climax": "Russian gas flows surge westward, reshaping continental energy dependence",
+    "resolution": "A Polish student pays extra for lunch, unaware of the radioactive butterfly effect"
+  },
+  "choices": [
+    "Trace another energy crisis cascade",
+    "Explore nuclear policy reversals globally",
+    "Follow different disaster ripples"
+  ]
+}

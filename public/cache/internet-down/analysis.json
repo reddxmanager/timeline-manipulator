@@ -1,0 +1,97 @@
+{
+  "title": "The Great Disconnection: 72 Hours That Rewired Reality",
+  "subtitle": "When the internet vanished, humanity rediscovered itself in unexpected ways",
+  "category": "Technology & Society",
+  "severity": 5,
+  "tag": "speculative",
+  "ripples": [
+    {
+      "id": 1,
+      "headline": "Global Stock Markets Crash 40% as High-Frequency Trading Dies",
+      "domain": "Finance",
+      "severity": 5,
+      "delay": "2 hours",
+      "source": {
+        "title": "Bloomberg Terminal",
+        "url": "https://bloomberg.com/markets"
+      }
+    },
+    {
+      "id": 2,
+      "headline": "Emergency Services Overwhelmed as GPS and Digital Communications Fail",
+      "domain": "Public Safety",
+      "severity": 5,
+      "delay": "4 hours",
+      "source": {
+        "title": "Reuters Emergency Wire",
+        "url": "https://reuters.com/world/emergency"
+      }
+    },
+    {
+      "id": 3,
+      "headline": "Supply Chains Collapse as Just-in-Time Logistics Go Blind",
+      "domain": "Economics",
+      "severity": 4,
+      "delay": "8 hours",
+      "source": {
+        "title": "Wall Street Journal Supply Chain Report",
+        "url": "https://wsj.com/articles/supply-chain-crisis"
+      }
+    },
+    {
+      "id": 4,
+      "headline": "Mental Health Crisis Emerges as Digital Natives Face Isolation",
+      "domain": "Health",
+      "severity": 4,
+      "delay": "24 hours",
+      "source": {
+        "title": "New England Journal of Medicine Emergency Brief",
+        "url": "https://nejm.org/emergency-mental-health"
+      }
+    },
+    {
+      "id": 5,
+      "headline": "Libraries and Bookstores Report 3000% Surge in Visitors",
+      "domain": "Culture",
+      "severity": 2,
+      "delay": "36 hours",
+      "source": {
+        "title": "American Library Association Bulletin",
+        "url": "https://ala.org/news/library-surge"
+      }
+    },
+    {
+      "id": 6,
+      "headline": "Local Newspapers Hire Emergency Staff as Citizens Seek Information",
+      "domain": "Media",
+      "severity": 2,
+      "delay": "48 hours",
+      "source": {
+        "title": "Columbia Journalism Review",
+        "url": "https://cjr.org/local-news-renaissance"
+      }
+    },
+    {
+      "id": 7,
+      "headline": "Martinez's Taco Truck Raises Burrito Prices to $47 Due to Cash-Only Rush",
+      "domain": "Local Business",
+      "severity": 1,
+      "delay": "72 hours",
+      "source": {
+        "title": "Palo Alto Daily Post",
+        "url": "https://paloaltodaily.com/martinez-taco-crisis"
+      }
+    }
+  ],
+  "symphony_arc": {
+    "opening": "In the digital age's greatest silence, the world's heartbeat shifted from fiber optic pulses to human footsteps.",
+    "development": "Markets collapsed, emergency services scrambled, and supply chains froze as humanity's digital nervous system went dark.",
+    "climax": "Amid the chaos, something unexpected emerged: neighbors talked to neighbors, families gathered without screens, and communities rediscovered their analog souls.",
+    "resolution": "When connection returned, we carried forward the memory of what we'd found in the darkness—that the most important networks were the ones we'd built with our own hands."
+  },
+  "choices": [
+    "Embrace digital minimalism permanently",
+    "Build redundant offline backup systems",
+    "Return to pre-internet communication methods"
+  ]
+}

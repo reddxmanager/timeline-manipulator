@@ -1,0 +1,97 @@
+{
+  "title": "OpenAI Open-Sources AGI, Unleashing Superhuman Intelligence Globally",
+  "subtitle": "Free artificial general intelligence triggers unprecedented societal transformation",
+  "category": "Technology",
+  "severity": 5,
+  "tag": "speculative",
+  "ripples": [
+    {
+      "id": 1,
+      "headline": "Global stock markets crash 40% as investors flee human-dependent industries",
+      "domain": "Finance",
+      "severity": 5,
+      "delay": "24 hours",
+      "source": {
+        "title": "The stock market is barrelling toward a &#x27;show me the money ... - Fortune",
+        "url": "https://fortune.com/2025/11/19/nvidia-earnings-artificial-intelligence-magnificent-seven-apple-stocks-investors-guide/"
+      }
+    },
+    {
+      "id": 2,
+      "headline": "Universities worldwide suspend admissions as AGI renders traditional education obsolete",
+      "domain": "Education",
+      "severity": 4,
+      "delay": "1 week",
+      "source": {
+        "title": "Fear Of AGI Is Driving Harvard And MIT Students To Drop Out",
+        "url": "https://www.forbes.com/sites/victoriafeng/2025/08/06/fear-of-super-intelligent-ai-is-driving-harvard-and-mit-students-to-drop-out/"
+      }
+    },
+    {
+      "id": 3,
+      "headline": "NATO declares emergency session as military balance shifts overnight",
+      "domain": "Geopolitics",
+      "severity": 5,
+      "delay": "3 days",
+      "source": {
+        "title": "NATO Assembly opens first session in U.S. in two decades; calls for ...",
+        "url": "https://www.nato-pa.int/news/nato-assembly-opens-first-session-us-two-decades-calls-stronger-rebalanced-alliance"
+      }
+    },
+    {
+      "id": 4,
+      "headline": "Clinical trials accelerate 1000x as AGI designs personalized medicine instantly",
+      "domain": "Healthcare",
+      "severity": 4,
+      "delay": "2 weeks",
+      "source": {
+        "title": "The Coming Wave: How AGI and ASI Could Reshape Life Sciences",
+        "url": "https://kinara.co/article/the-coming-wave-how-agi-and-asi-could-reshape-life-sciences/"
+      }
+    },
+    {
+      "id": 5,
+      "headline": "Hollywood writers strike indefinitely as AGI creates blockbuster scripts in seconds",
+      "domain": "Entertainment",
+      "severity": 3,
+      "delay": "1 month",
+      "source": {
+        "title": "Hollywood writers say AI is ripping off their work. They want studios ...",
+        "url": "https://www.latimes.com/entertainment-arts/business/story/2025-02-12/hollywood-writers-say-ai-is-ripping-off-their-work-they-want-studios-to-sue"
+      }
+    },
+    {
+      "id": 6,
+      "headline": "Dating app algorithms become so effective they predict soulmates with 99.9% accuracy",
+      "domain": "Social",
+      "severity": 2,
+      "delay": "6 months",
+      "source": {
+        "title": "Online dating is about to radically change | CNN Business",
+        "url": "https://www.cnn.com/2024/12/19/tech/why-dating-may-look-radically-different-in-5-years"
+      }
+    },
+    {
+      "id": 7,
+      "headline": "Local burrito shop raises prices to $47 after AGI optimizes 'perfect flavor profile'",
+      "domain": "Food",
+      "severity": 1,
+      "delay": "1 year",
+      "source": {
+        "title": "Inflation Hits the Fast Food Counter - The New York Times",
+        "url": "https://www.nytimes.com/2022/01/21/business/fast-food-prices-inflation.html"
+      }
+    }
+  ],
+  "symphony_arc": {
+    "opening": "The digital Prometheus moment arrives as OpenAI releases the keys to superhuman intelligence",
+    "development": "Cascading disruption ripples through every human institution as AGI rewrites the rules of existence",
+    "climax": "Civilization teeters between utopian transformation and existential upheaval",
+    "resolution": "Even perfect AI cannot escape the absurdity of overpriced burritos"
+  },
+  "choices": [
+    "Embrace the chaos",
+    "Hide in a bunker",
+    "Buy AGI stocks"
+  ]
+}

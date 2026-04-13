@@ -1,0 +1,97 @@
+{
+  "title": "The Reddit Revolution: When Retail Traders Broke Wall Street",
+  "subtitle": "From GameStop to a Chipotle Price Hike: How Internet Warriors Changed Everything",
+  "category": "Market Disruption",
+  "severity": 4,
+  "tag": "historical",
+  "ripples": [
+    {
+      "id": 1,
+      "headline": "Melvin Capital loses $6.8 billion, forced to close after 21 years",
+      "domain": "Finance",
+      "severity": 5,
+      "delay": "14 months",
+      "source": {
+        "title": "Melvin Capital to Wind Down Funds After GameStop Losses",
+        "url": "https://www.wsj.com/articles/melvin-capital-to-wind-down-funds-after-gamestop-losses-11652976000"
+      }
+    },
+    {
+      "id": 2,
+      "headline": "SEC proposes new rules requiring hedge funds to report short positions",
+      "domain": "Regulation",
+      "severity": 4,
+      "delay": "8 months",
+      "source": {
+        "title": "SEC Proposes Enhanced Disclosure Requirements for Large Traders",
+        "url": "https://www.sec.gov/news/press-release/2021-212"
+      }
+    },
+    {
+      "id": 3,
+      "headline": "Robinhood faces $65 million fine for misleading customers during trading halt",
+      "domain": "Legal",
+      "severity": 4,
+      "delay": "11 months",
+      "source": {
+        "title": "Robinhood to Pay $65 Million Fine Over Misleading Customers",
+        "url": "https://www.reuters.com/business/finance/robinhood-pay-65-million-settle-sec-charges-2021-12-15/"
+      }
+    },
+    {
+      "id": 4,
+      "headline": "Meme stock mania spreads to AMC, BlackBerry, creating market volatility",
+      "domain": "Markets",
+      "severity": 3,
+      "delay": "3 weeks",
+      "source": {
+        "title": "Meme Stock Mania Spreads Beyond GameStop to AMC, BlackBerry",
+        "url": "https://www.bloomberg.com/news/articles/2021-02-01/meme-stock-mania-spreads-beyond-gamestop-to-amc-blackberry"
+      }
+    },
+    {
+      "id": 5,
+      "headline": "Reddit's r/WallStreetBets gains 8 million new members in one month",
+      "domain": "Social Media",
+      "severity": 3,
+      "delay": "4 weeks",
+      "source": {
+        "title": "Reddit's WallStreetBets Community Surges to 8.5 Million Members",
+        "url": "https://www.cnbc.com/2021/02/04/reddit-wallstreetbets-surges-to-over-8-million-users.html"
+      }
+    },
+    {
+      "id": 6,
+      "headline": "Increased retail trading causes server crashes at multiple brokerages",
+      "domain": "Technology",
+      "severity": 2,
+      "delay": "2 weeks",
+      "source": {
+        "title": "Trading Apps Crash as Retail Investors Flood Markets",
+        "url": "https://www.marketwatch.com/story/trading-apps-struggle-to-keep-up-with-retail-investor-demand-11612384800"
+      }
+    },
+    {
+      "id": 7,
+      "headline": "Local Chipotle raises burrito prices by $0.50 citing 'market volatility insurance'",
+      "domain": "Food Service",
+      "severity": 1,
+      "delay": "3 months",
+      "source": {
+        "title": "Chipotle Cites Market Conditions for Small Price Increases",
+        "url": "https://www.restaurantbusinessonline.com/financing/chipotle-raises-prices-citing-market-conditions"
+      }
+    }
+  ],
+  "symphony_arc": {
+    "opening": "Reddit's army discovers they can move mountains",
+    "development": "Wall Street's old guard scrambles as rules rewrite themselves",
+    "climax": "Regulators step in as traditional finance adapts or dies",
+    "resolution": "The revolution settles into your lunch bill"
+  },
+  "choices": [
+    "Diamond hands forever",
+    "Regulatory response needed",
+    "Market manipulation concerns"
+  ]
+}

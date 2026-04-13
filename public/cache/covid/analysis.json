@@ -1,0 +1,86 @@
+{
+  "title": "The Great Shutdown: When the World Went Dark",
+  "subtitle": "March 2020: Global lockdowns cascade from boardrooms to your breakfast table",
+  "category": "geopolitics",
+  "severity": 5,
+  "tag": "historical",
+  "ripples": [
+    {
+      "id": 1,
+      "headline": "Historic Unemployment Surge: 14.8% Peak Shatters Records",
+      "domain": "employment",
+      "severity": 5,
+      "delay": "weeks",
+      "source": {
+        "title": "Unemployment Rates During the COVID-19 Pandemic",
+        "url": "https://www.congress.gov/crs-product/R46554"
+      }
+    },
+    {
+      "id": 2,
+      "headline": "Global Supply Chains Collapse as 75% of Companies Hit",
+      "domain": "logistics",
+      "severity": 5,
+      "delay": "weeks",
+      "source": {
+        "title": "Impacts of COVID-19 on Global Supply Chains: Facts and Perspectives",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8768947/"
+      }
+    },
+    {
+      "id": 3,
+      "headline": "Oil Prices Crash 85% in Historic Market Meltdown",
+      "domain": "energy",
+      "severity": 5,
+      "delay": "days",
+      "source": {
+        "title": "Adding Fuel to the Fire: Cheap Oil during the COVID-19 Pandemic",
+        "url": "https://documents1.worldbank.org/curated/en/284371594670190475/pdf/Adding-Fuel-to-the-Fire-Cheap-Oil-during-the-COVID-19-Pandemic.pdf"
+      }
+    },
+    {
+      "id": 4,
+      "headline": "Restaurant Industry Devastated: $225 Billion Direct Losses",
+      "domain": "consumer",
+      "severity": 4,
+      "delay": "days",
+      "source": {
+        "title": "Impact of the COVID-19 pandemic on the restaurant industry in the United States",
+        "url": "https://en.wikipedia.org/wiki/Impact_of_the_COVID-19_pandemic_on_the_restaurant_industry_in_the_United_States"
+      }
+    },
+    {
+      "id": 5,
+      "headline": "Grocery Prices Surge 4.3% as Panic Buying Empties Shelves",
+      "domain": "consumer",
+      "severity": 3,
+      "delay": "days",
+      "source": {
+        "title": "The impact of the COVID-19 pandemic on food price indexes and data collection",
+        "url": "https://www.bls.gov/opub/mlr/2020/article/the-impact-of-the-covid-19-pandemic-on-food-price-indexes-and-data-collection.htm"
+      }
+    },
+    {
+      "id": 6,
+      "headline": "Your Sandwich Now Costs 15 Cents More",
+      "domain": "personal",
+      "severity": 1,
+      "delay": "months",
+      "source": {
+        "title": "Retail Food Price Inflation in 2020 Outpaced Historical Average by 75 Percent",
+        "url": "https://www.ers.usda.gov/amber-waves/2021/march/retail-food-price-inflation-in-2020-outpaced-historical-average-by-75-percent"
+      }
+    }
+  ],
+  "symphony_arc": {
+    "opening": "Quiet tension builds in major cities",
+    "development": "Crescendo of market crashes and sirens wailing",
+    "climax": "Full orchestral chaos - everything closes at once",
+    "resolution": "Single piano note - you counting lunch money"
+  },
+  "choices": [
+    "Deploy strategic reserves and emergency protocols",
+    "Negotiate international supply chain cooperation agreements",
+    "Hoard toilet paper and canned goods"
+  ]
+}

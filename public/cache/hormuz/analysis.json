@@ -1,0 +1,86 @@
+{
+  "title": "The Last Drop: From War to Coffee Shop Prices",
+  "subtitle": "When global chaos meets your morning ritual",
+  "category": "geopolitics",
+  "severity": 5,
+  "tag": "historical",
+  "ripples": [
+    {
+      "id": 1,
+      "headline": "Oil Prices Surge to $132/Barrel as Hormuz Blockade Enters Week Six",
+      "domain": "energy",
+      "severity": 5,
+      "delay": "hours",
+      "source": {
+        "title": "What the closure of the Strait of Hormuz means for the global economy",
+        "url": "https://www.dallasfed.org/research/economics/2026/0320"
+      }
+    },
+    {
+      "id": 2,
+      "headline": "War Risk Insurance Premiums Hit 5% of Ship Value, Crippling Maritime Trade",
+      "domain": "logistics",
+      "severity": 5,
+      "delay": "days",
+      "source": {
+        "title": "Shipping Insurance Costs for Hormuz Passage Surge After Vessel Attacks",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-16/shipping-insurance-costs-to-cross-hormuz-soar-after-ship-attacks"
+      }
+    },
+    {
+      "id": 3,
+      "headline": "Fertilizer Prices Spike 40% as Gulf Supplies Vanish During Planting Season",
+      "domain": "agriculture",
+      "severity": 4,
+      "delay": "weeks",
+      "source": {
+        "title": "Farmers warn of food price spike as war drives up fuel and fertilizer costs",
+        "url": "https://www.pbs.org/newshour/show/farmers-warn-of-food-price-spike-as-war-drives-up-fuel-and-fertilizer-costs"
+      }
+    },
+    {
+      "id": 4,
+      "headline": "Helium Shortage Threatens $611B Semiconductor Industry as Qatar Plants Offline",
+      "domain": "technology",
+      "severity": 4,
+      "delay": "weeks",
+      "source": {
+        "title": "Iran war disrupts helium supply, threatening chip supply chain",
+        "url": "https://thehill.com/policy/technology/5800616-iran-war-helium-chip-supply/"
+      }
+    },
+    {
+      "id": 5,
+      "headline": "March Inflation Jumps to 3.3% as Energy Crisis Hits Consumer Prices",
+      "domain": "consumer",
+      "severity": 4,
+      "delay": "months",
+      "source": {
+        "title": "March 2026 CPI: US inflation surged as Iran war took a toll on consumer prices",
+        "url": "https://www.foxbusiness.com/economy/cpi-inflation-march-2026"
+      }
+    },
+    {
+      "id": 6,
+      "headline": "Your Morning Coffee Now Costs $9.60/Pound, Up 31% Year-Over-Year",
+      "domain": "personal",
+      "severity": 2,
+      "delay": "months",
+      "source": {
+        "title": "Coffee Prices Adjusted for Inflation",
+        "url": "https://www.usinflationcalculator.com/inflation/coffee-prices-by-year-and-adjust-for-inflation/"
+      }
+    }
+  ],
+  "symphony_arc": {
+    "opening": "Distant thunder rolls across the Persian Gulf - a low, ominous bass note that sets the entire world stage trembling",
+    "development": "The rhythm builds as supply chains snap like piano wires under pressure, each break sending sharp staccato notes through global markets",
+    "climax": "A crescendo of chaos - oil tankers stranded, semiconductors stalled, fertilizer frozen - the full orchestra of modern commerce grinding to a discordant halt",
+    "resolution": "And in the quiet aftermath, somewhere in a coffee shop in Des Moines, a barista adjusts the chalkboard menu, adding fifty cents to a latte, while outside the world keeps turning"
+  },
+  "choices": [
+    "Send the Navy to force the strait open",
+    "Negotiate directly with Iran",
+    "Drill domestically and let Europe deal with it"
+  ]
+}

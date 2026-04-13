@@ -1,0 +1,97 @@
+{
+  "title": "Trump's Tariff Storm: From Global Markets to Your Morning Burrito",
+  "subtitle": "How trade wars cascade through interconnected systems to reach the most unexpected places",
+  "category": "Economic Warfare",
+  "severity": 4,
+  "tag": "historical",
+  "ripples": [
+    {
+      "id": 1,
+      "headline": "Global stock markets plummet as investors flee to safe havens amid escalating trade tensions",
+      "domain": "Financial Markets",
+      "severity": 5,
+      "delay": "Within hours",
+      "source": {
+        "title": "Wall Street Journal",
+        "url": "https://wsj.com/markets/global-selloff-tariffs"
+      }
+    },
+    {
+      "id": 2,
+      "headline": "Major automakers halt production as cross-border supply chains face immediate disruption",
+      "domain": "Manufacturing",
+      "severity": 4,
+      "delay": "2-3 days",
+      "source": {
+        "title": "Reuters",
+        "url": "https://reuters.com/business/autos-supply-chain-crisis"
+      }
+    },
+    {
+      "id": 3,
+      "headline": "Grocery chains scramble to secure alternative suppliers as food import costs surge 25%",
+      "domain": "Food Supply",
+      "severity": 4,
+      "delay": "1 week",
+      "source": {
+        "title": "CNN Business",
+        "url": "https://cnn.com/business/grocery-prices-tariff-impact"
+      }
+    },
+    {
+      "id": 4,
+      "headline": "Restaurant industry faces margin squeeze as ingredient costs soar across the board",
+      "domain": "Hospitality",
+      "severity": 3,
+      "delay": "2 weeks",
+      "source": {
+        "title": "Nation's Restaurant News",
+        "url": "https://nrn.com/operations/restaurant-costs-surge-tariffs"
+      }
+    },
+    {
+      "id": 5,
+      "headline": "Local taco shops raise prices by $2-3 per item to offset imported ingredient costs",
+      "domain": "Local Business",
+      "severity": 3,
+      "delay": "3 weeks",
+      "source": {
+        "title": "Los Angeles Times",
+        "url": "https://latimes.com/food/taco-shops-price-increases"
+      }
+    },
+    {
+      "id": 6,
+      "headline": "Food delivery apps experience 40% drop in orders as customers balk at premium prices",
+      "domain": "Consumer Behavior",
+      "severity": 2,
+      "delay": "1 month",
+      "source": {
+        "title": "TechCrunch",
+        "url": "https://techcrunch.com/delivery-app-demand-drops"
+      }
+    },
+    {
+      "id": 7,
+      "headline": "Karen from accounting's DoorDash burrito arrives 45 minutes late and costs $23.50",
+      "domain": "Personal Inconvenience",
+      "severity": 1,
+      "delay": "6 weeks",
+      "source": {
+        "title": "Local Office Slack Channel",
+        "url": "https://slack.com/accounting-team/burrito-complaints"
+      }
+    }
+  ],
+  "symphony_arc": {
+    "opening": "Trade barriers slam down like fortress gates",
+    "development": "Economic tremors ripple through interconnected supply webs",
+    "climax": "Global systems buckle under cascading price pressures",
+    "resolution": "The butterfly effect reaches Karen's overpriced lunch"
+  },
+  "choices": [
+    "Track the semiconductor shortage next",
+    "Explore climate change ripples instead",
+    "Follow social media algorithm changes"
+  ]
+}

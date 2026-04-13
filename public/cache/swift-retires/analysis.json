@@ -1,0 +1,97 @@
+{
+  "title": "Taylor Swift Announces Retirement from Touring After Eras Tour",
+  "subtitle": "Music industry grapples with seismic shift as world's biggest touring act exits stage",
+  "category": "Entertainment Industry",
+  "severity": 4,
+  "tag": "speculative",
+  "ripples": [
+    {
+      "id": 1,
+      "headline": "Ticketmaster stock plummets 23% as investors flee live entertainment sector",
+      "domain": "Financial Markets",
+      "severity": 4,
+      "delay": "immediate",
+      "source": {
+        "title": "Wall Street Journal",
+        "url": "https://wsj.com"
+      }
+    },
+    {
+      "id": 2,
+      "headline": "Live Nation cancels venue expansion projects worth $2.8 billion globally",
+      "domain": "Real Estate",
+      "severity": 3,
+      "delay": "1 week",
+      "source": {
+        "title": "Billboard",
+        "url": "https://billboard.com"
+      }
+    },
+    {
+      "id": 3,
+      "headline": "Concert merchandise suppliers face mass layoffs as demand evaporates",
+      "domain": "Manufacturing",
+      "severity": 3,
+      "delay": "2 weeks",
+      "source": {
+        "title": "Reuters",
+        "url": "https://reuters.com"
+      }
+    },
+    {
+      "id": 4,
+      "headline": "Hotel chains near major venues report 40% booking cancellation spike",
+      "domain": "Hospitality",
+      "severity": 2,
+      "delay": "1 month",
+      "source": {
+        "title": "USA Today",
+        "url": "https://usatoday.com"
+      }
+    },
+    {
+      "id": 5,
+      "headline": "Airlines reduce flight frequency to secondary markets hit by venue closures",
+      "domain": "Transportation",
+      "severity": 2,
+      "delay": "6 weeks",
+      "source": {
+        "title": "CNN Travel",
+        "url": "https://cnn.com"
+      }
+    },
+    {
+      "id": 6,
+      "headline": "Uber surge pricing algorithms recalibrate after concert demand patterns collapse",
+      "domain": "Technology",
+      "severity": 1,
+      "delay": "2 months",
+      "source": {
+        "title": "TechCrunch",
+        "url": "https://techcrunch.com"
+      }
+    },
+    {
+      "id": 7,
+      "headline": "Local burrito truck raises prices 15% after losing concert venue customers",
+      "domain": "Food Service",
+      "severity": 1,
+      "delay": "3 months",
+      "source": {
+        "title": "Phoenix New Times",
+        "url": "https://phoenixnewtimes.com"
+      }
+    }
+  ],
+  "symphony_arc": {
+    "opening": "A single announcement reverberates through financial markets as Ticketmaster's empire trembles",
+    "development": "Cascading failures ripple through interconnected entertainment infrastructure and hospitality networks",
+    "climax": "Economic restructuring forces mass layoffs across multiple industries dependent on live events",
+    "resolution": "The butterfly effect reaches its inevitable conclusion in slightly more expensive lunch"
+  },
+  "choices": [
+    "Invest in streaming platforms instead",
+    "Short the entire entertainment sector",
+    "Buy that burrito before inflation hits"
+  ]
+}

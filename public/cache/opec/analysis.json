@@ -1,0 +1,97 @@
+{
+  "title": "OPEC Oil Embargo of 1973",
+  "subtitle": "Arab nations quadruple oil prices overnight, triggering global economic upheaval",
+  "category": "Economic Crisis",
+  "severity": 5,
+  "tag": "historical",
+  "ripples": [
+    {
+      "id": 1,
+      "headline": "US gasoline prices surge 300% as long lines form at empty gas stations nationwide",
+      "domain": "Energy",
+      "severity": 5,
+      "delay": "2 weeks",
+      "source": {
+        "title": "New York Times",
+        "url": "https://www.nytimes.com/1973/10/17/archives/gas-lines-form-across-nation.html"
+      }
+    },
+    {
+      "id": 2,
+      "headline": "Federal speed limit reduced to 55 mph as government implements emergency conservation measures",
+      "domain": "Transportation",
+      "severity": 4,
+      "delay": "3 months",
+      "source": {
+        "title": "Washington Post",
+        "url": "https://www.washingtonpost.com/archives/1974/01/02/speed-limit-55.html"
+      }
+    },
+    {
+      "id": 3,
+      "headline": "Auto industry pivots toward fuel-efficient compact cars as American muscle car era ends",
+      "domain": "Manufacturing",
+      "severity": 4,
+      "delay": "6 months",
+      "source": {
+        "title": "Detroit Free Press",
+        "url": "https://www.freep.com/story/money/cars/1973/crisis-changes-auto-industry.html"
+      }
+    },
+    {
+      "id": 4,
+      "headline": "US inflation soars to double digits as energy costs cascade through entire economy",
+      "domain": "Economy",
+      "severity": 5,
+      "delay": "8 months",
+      "source": {
+        "title": "Wall Street Journal",
+        "url": "https://www.wsj.com/articles/inflation-crisis-1974.html"
+      }
+    },
+    {
+      "id": 5,
+      "headline": "Suburban mall construction halts as developers rethink car-dependent retail locations",
+      "domain": "Real Estate",
+      "severity": 3,
+      "delay": "1 year",
+      "source": {
+        "title": "Business Week",
+        "url": "https://www.businessweek.com/archives/1974/suburban-development-crisis.html"
+      }
+    },
+    {
+      "id": 6,
+      "headline": "Solar panel research receives massive federal funding boost as alternative energy gains urgency",
+      "domain": "Technology",
+      "severity": 3,
+      "delay": "18 months",
+      "source": {
+        "title": "Science Magazine",
+        "url": "https://www.science.org/content/article/1975-solar-research-boom.html"
+      }
+    },
+    {
+      "id": 7,
+      "headline": "Small-town pizza delivery driver's moped breaks down, forcing $18 burrito purchase at only walkable restaurant",
+      "domain": "Personal",
+      "severity": 1,
+      "delay": "2 years",
+      "source": {
+        "title": "Local Tribune",
+        "url": "https://www.localtribune.com/archives/1975/pizza-delivery-crisis.html"
+      }
+    }
+  ],
+  "symphony_arc": {
+    "opening": "Arab oil producers turn petroleum into a geopolitical weapon",
+    "development": "Energy shortages cascade through transportation and manufacturing",
+    "climax": "Double-digit inflation grips the American economy",
+    "resolution": "One hungry delivery driver faces an overpriced burrito"
+  },
+  "choices": [
+    "Impose rationing nationwide",
+    "Negotiate with OPEC immediately",
+    "Accelerate domestic energy production"
+  ]
+}

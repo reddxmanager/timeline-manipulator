@@ -1,0 +1,114 @@
+[
+  {
+    "id": "opec-1973",
+    "event": "OPEC oil embargo of 1973 quadruples oil prices overnight",
+    "consequences": ["Gas prices quadrupled in months", "US imposed 55mph speed limit", "Japan pivoted to fuel-efficient cars", "Global recession triggered", "Strategic Petroleum Reserve created", "Carpooling became mainstream", "Long gas station lines nationwide"],
+    "domain": "geopolitics",
+    "severity": 5,
+    "year": 1973
+  },
+  {
+    "id": "chernobyl-1986",
+    "event": "Chernobyl nuclear disaster releases radiation across Europe",
+    "consequences": ["135,000 people permanently evacuated", "European food imports banned for months", "Anti-nuclear movement surged globally", "Soviet Union credibility shattered", "Italy closed all nuclear plants", "Radiation detected in Welsh sheep for decades"],
+    "domain": "energy",
+    "severity": 5,
+    "year": 1986
+  },
+  {
+    "id": "dotcom-2000",
+    "event": "Dot-com bubble bursts wiping $5 trillion in market value",
+    "consequences": ["NASDAQ lost 78% of its value", "Silicon Valley office vacancies hit 30%", "Tech hiring froze for 3 years", "Pets.com became a punchline", "Amazon stock dropped 90%", "Venture capital dried up overnight"],
+    "domain": "technology",
+    "severity": 4,
+    "year": 2000
+  },
+  {
+    "id": "lehman-2008",
+    "event": "Lehman Brothers collapses triggering 2008 global financial crisis",
+    "consequences": ["Global credit markets froze", "US unemployment hit 10%", "Housing prices dropped 30%", "Taxpayer bailouts exceeded $700 billion", "Occupy Wall Street movement born", "Dodd-Frank regulation passed", "Iceland's entire banking system collapsed"],
+    "domain": "finance",
+    "severity": 5,
+    "year": 2008
+  },
+  {
+    "id": "deepwater-2010",
+    "event": "BP Deepwater Horizon oil rig explodes in the Gulf of Mexico",
+    "consequences": ["4.9 million barrels spilled over 87 days", "BP paid $65 billion in cleanup and fines", "Gulf fishing industry devastated for years", "US offshore drilling moratorium imposed", "Tourism revenue dropped $23 billion", "New safety regulations transformed industry"],
+    "domain": "energy",
+    "severity": 4,
+    "year": 2010
+  },
+  {
+    "id": "fukushima-2011",
+    "event": "Fukushima Daiichi nuclear disaster after earthquake and tsunami",
+    "consequences": ["Japan shut down all 54 nuclear reactors", "Germany permanently abandoned nuclear power", "Global nuclear construction halted", "LNG demand surged driving up gas prices", "160,000 residents evacuated", "Renewable energy investment doubled"],
+    "domain": "energy",
+    "severity": 5,
+    "year": 2011
+  },
+  {
+    "id": "brexit-2016",
+    "event": "UK votes to leave the European Union",
+    "consequences": ["British pound dropped 10% overnight", "Supply chains disrupted by new customs borders", "Financial firms relocated from London to Dublin and Frankfurt", "Northern Ireland border crisis created", "EU lost second largest economy", "Immigration policy reshaped"],
+    "domain": "geopolitics",
+    "severity": 4,
+    "year": 2016
+  },
+  {
+    "id": "covid-2020",
+    "event": "Global COVID-19 lockdowns begin March 2020",
+    "consequences": ["Global GDP contracted 3.1%", "22 million US jobs lost in weeks", "Toilet paper shortages nationwide", "Remote work became permanent for millions", "Supply chain crisis lasted 2 years", "Chip shortage crippled auto industry", "Stimulus checks fueled inflation"],
+    "domain": "health",
+    "severity": 5,
+    "year": 2020
+  },
+  {
+    "id": "suez-2021",
+    "event": "Ever Given blocks the Suez Canal for 6 days in 2021",
+    "consequences": ["$9.6 billion per day in trade delayed", "Container shipping rates tripled", "European auto factories halted", "Oil prices spiked 4%", "Furniture and electronics backlogs for months", "400 ships stuck waiting"],
+    "domain": "logistics",
+    "severity": 4,
+    "year": 2021
+  },
+  {
+    "id": "gamestop-2021",
+    "event": "GameStop short squeeze driven by Reddit retail traders",
+    "consequences": ["GME rose from $17 to $483", "Melvin Capital lost $6.8 billion", "Robinhood restricted trading and faced Congress", "Meme stock culture became permanent", "SEC investigated market manipulation", "Retail trading surged permanently"],
+    "domain": "finance",
+    "severity": 3,
+    "year": 2021
+  },
+  {
+    "id": "chatgpt-2022",
+    "event": "OpenAI launches ChatGPT triggering AI arms race",
+    "consequences": ["100 million users in 2 months", "Google declared code red", "Microsoft invested $10 billion in OpenAI", "AI replaced entry-level writing jobs", "Every tech company pivoted to AI", "Education systems scrambled over cheating", "Hollywood writers went on strike"],
+    "domain": "technology",
+    "severity": 4,
+    "year": 2022
+  },
+  {
+    "id": "svb-2023",
+    "event": "Silicon Valley Bank collapses in 48 hours",
+    "consequences": ["Startup payroll accounts frozen", "Regional bank stocks plummeted 30%", "FDIC emergency backstop announced", "VC firms scrambled bridge loans", "Tech hiring freezes cascaded", "SF commercial real estate vacancies spiked"],
+    "domain": "finance",
+    "severity": 4,
+    "year": 2023
+  },
+  {
+    "id": "tariffs-2025",
+    "event": "Trump administration imposes sweeping tariffs on China Canada Mexico and allies in 2025",
+    "consequences": ["Stock market dropped sharply on announcement", "Consumer prices rose on imported goods", "Manufacturing shifted to Vietnam and India", "Retaliatory tariffs hit US agriculture", "Supply chain rewiring accelerated", "Trade deficit initially widened"],
+    "domain": "geopolitics",
+    "severity": 4,
+    "year": 2025
+  },
+  {
+    "id": "hormuz-2026",
+    "event": "Iran closes the Strait of Hormuz after US and Israeli airstrikes in February 2026",
+    "consequences": ["Oil surged above $100 per barrel", "600+ vessels stranded in Persian Gulf", "20,000 mariners stuck at sea", "Iran charged $1M crypto tolls per ship", "Gas prices hit $7 in parts of US", "Global supply chains disrupted again", "Ceasefire agreed but strait remains effectively closed"],
+    "domain": "geopolitics",
+    "severity": 5,
+    "year": 2026
+  }
+]

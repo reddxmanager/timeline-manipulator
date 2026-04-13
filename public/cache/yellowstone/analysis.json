@@ -1,0 +1,97 @@
+{
+  "title": "Yellowstone Supervolcano Erupts, Triggering Global Cascade",
+  "subtitle": "Massive eruption blankets western US in ash, initiating volcanic winter worldwide",
+  "category": "Natural Disaster",
+  "severity": 5,
+  "tag": "speculative",
+  "ripples": [
+    {
+      "id": 1,
+      "headline": "US Agricultural Belt Devastated as Ash Cloud Kills Crops Across Seven States",
+      "domain": "Agriculture",
+      "severity": 5,
+      "delay": "3 days",
+      "source": {
+        "title": "USDA Emergency Agricultural Assessment",
+        "url": "https://www.usda.gov/media/press-releases/2024/emergency-agricultural-assessment"
+      }
+    },
+    {
+      "id": 2,
+      "headline": "Global Food Prices Surge 400% as US Grain Exports Collapse Overnight",
+      "domain": "Economics",
+      "severity": 5,
+      "delay": "1 week",
+      "source": {
+        "title": "Reuters Global Commodities Report",
+        "url": "https://www.reuters.com/markets/commodities/global-food-prices-surge-us-grain-crisis"
+      }
+    },
+    {
+      "id": 3,
+      "headline": "Mass Migration Crisis as 15 Million Americans Flee Ash-Covered Regions",
+      "domain": "Social",
+      "severity": 5,
+      "delay": "2 weeks",
+      "source": {
+        "title": "UN High Commissioner for Refugees Emergency Bulletin",
+        "url": "https://www.unhcr.org/news/briefing/2024/yellowstone-displacement-crisis"
+      }
+    },
+    {
+      "id": 4,
+      "headline": "Global Temperatures Drop 2°C as Volcanic Ash Blocks Sunlight Worldwide",
+      "domain": "Climate",
+      "severity": 4,
+      "delay": "1 month",
+      "source": {
+        "title": "NASA Goddard Institute Climate Analysis",
+        "url": "https://climate.nasa.gov/evidence/volcanic-winter-analysis-2024"
+      }
+    },
+    {
+      "id": 5,
+      "headline": "European Energy Crisis Deepens as Solar Power Generation Falls 80%",
+      "domain": "Energy",
+      "severity": 4,
+      "delay": "6 weeks",
+      "source": {
+        "title": "International Energy Agency Emergency Report",
+        "url": "https://www.iea.org/news/volcanic-winter-energy-crisis-europe"
+      }
+    },
+    {
+      "id": 6,
+      "headline": "Global Supply Chains Collapse as Reduced Sunlight Cripples Manufacturing",
+      "domain": "Industry",
+      "severity": 3,
+      "delay": "3 months",
+      "source": {
+        "title": "World Trade Organization Supply Chain Analysis",
+        "url": "https://www.wto.org/english/news_e/pres24_e/volcanic-supply-disruption.htm"
+      }
+    },
+    {
+      "id": 7,
+      "headline": "Local Burrito Shop Raises Prices to $23 Due to Avocado Shortage",
+      "domain": "Local Business",
+      "severity": 1,
+      "delay": "4 months",
+      "source": {
+        "title": "Portland Food & Wine Magazine",
+        "url": "https://www.portlandfoodandwine.com/news/burrito-prices-volcanic-winter"
+      }
+    }
+  ],
+  "symphony_arc": {
+    "opening": "A geological giant awakens beneath Yellowstone, unleashing primordial forces that will reshape civilization itself",
+    "development": "Cascading failures ripple across interconnected systems - agriculture, climate, energy, and human migration creating a perfect storm of global disruption",
+    "climax": "The volcanic winter reaches its peak, plunging the world into an era of scarcity and forcing humanity to adapt to a fundamentally altered planet",
+    "resolution": "In the new reality, even the most mundane aspects of daily life - from energy costs to lunch prices - bear the permanent mark of that fateful eruption"
+  },
+  "choices": [
+    "Stockpile emergency supplies immediately",
+    "Invest in volcanic winter technologies",
+    "Relocate to southern hemisphere"
+  ]
+}
